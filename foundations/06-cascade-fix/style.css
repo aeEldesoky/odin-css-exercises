@@ -8,13 +8,15 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/* Moved after para class to have the most recent
+   font size effect */
 .small-para {
   font-size: 14px;
   font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
 }
 
 .confirm {
