@@ -1,4 +1,4 @@
-/* odd numbered elements */
+/* Format odd numbered elements */
 .odd-numbered {
     /* a light red/pink background */
     background-color: #cc9696;
@@ -6,9 +6,15 @@
        with `sans-serif` as a fallback */
     font-family: "Verdana", "DejaVu Sans", "sans-serif";
 }
+
+/* Format second element */
 #second {
     /* blue text */
     color: rgb(25, 25, 150);
     /* font size of 36px */
     font-size: 36px;
+}
+/* Font size for third & fourth elements */
+.cooler {
+    font-size: 24px;
 }
