@@ -1,1 +1,7 @@
 /* Add CSS Styling */
+/* Modify the element with both avatar and
+   proportioned classes */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
