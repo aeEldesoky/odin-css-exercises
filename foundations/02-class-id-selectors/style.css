@@ -14,7 +14,16 @@
     /* font size of 36px */
     font-size: 36px;
 }
+
 /* Font size for third & fourth elements */
 .cooler {
     font-size: 24px;
+}
+
+/* Format fourth element */
+#fourth {
+    /* light green background */
+    background-color: hsl(120, 80%, 80%);
+    /* bold font */
+    font-weight: bold;
 }
