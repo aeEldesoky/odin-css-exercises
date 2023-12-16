@@ -1,0 +1,8 @@
+/* odd numbered elements */
+.odd-numbered {
+    /* a light red/pink background */
+    background-color: rgb(200, 150, 150);
+    /* a list of fonts containing `Verdana` and `DejaVu Sans` 
+       with `sans-serif` as a fallback */
+    font-family: "Verdana", "DejaVu Sans", "sans-serif";
+}
