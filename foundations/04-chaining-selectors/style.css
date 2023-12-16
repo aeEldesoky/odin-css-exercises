@@ -5,3 +5,10 @@
     width: 300px;
     height: auto;
 }
+
+/* Modify the element with both avatar and
+   distorted classes */
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
