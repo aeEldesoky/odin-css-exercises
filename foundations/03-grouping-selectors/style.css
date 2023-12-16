@@ -1,0 +1,7 @@
+/* Format the first element */
+.first {
+    /* A black background */
+    background-color: black;
+    /* a white text */
+    color: white;
+}
