@@ -19,17 +19,19 @@ body {
   font-weight: 800;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
+/* Moved after button class to have the desired
+   formatting */
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
 .child {
   color: rgb(0, 0, 0);
