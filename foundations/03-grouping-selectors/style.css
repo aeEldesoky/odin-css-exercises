@@ -10,3 +10,12 @@
     /* A yellow background */
     background-color: yellow;
 }
+
+/* Format both elements with common font formats */
+.font {
+    /* a font size of 28 pixels */
+    font-size: 28px;
+    /* a list of fonts containing `Helvetica` and 
+       `Times New Roman`, with `sans-serif` as a fallback  */
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
