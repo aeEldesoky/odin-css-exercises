@@ -1,0 +1,11 @@
+/* Style only the element of .text class
+   descendent from (located inside)
+   a div element */
+/* .container p would do the same effect */
+/* .container .text would do the same effect */
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
