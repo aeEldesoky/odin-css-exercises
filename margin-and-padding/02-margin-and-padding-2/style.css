@@ -3,21 +3,26 @@ body {
   font-family: sans-serif;
 }
 
+/* Set padding for each item */
+.card,
+.title,
+.content,
+.button-container {
+  padding: 10px;
+}
+
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  /* Set card padding */
-  padding: 10px;
 }
 
 .title {
   background: #e3f4ff;
   /* Decrease font size */
   font-size: 18px;
-  /* Remove title's default margin and padding */
+  /* Remove title's default margin */
   margin: 0;
-  padding: 0;
 }
 
 .content {
