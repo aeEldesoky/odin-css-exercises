@@ -45,6 +45,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /* Make button stay at its original size */
+  margin: auto;
 }
 
 a {
