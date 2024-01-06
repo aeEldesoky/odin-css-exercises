@@ -2,9 +2,11 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
-  /* Arrange and format title and items */
+.container, .info, .item {
   display: flex;
+}
+.container, .item {
+  /* Arrange and format title and items */
   flex-direction: column;
   align-items: center;
 }
