@@ -25,6 +25,8 @@ ul,
   box-shadow: 0 0 8px rgba(0, 0, 0, .1);
   /* Center items vertically inside header */
   align-items: center;
+  /* Set padding for items inside the header */
+  padding: 0.5em;
 }
 
 /* Make header flexible */
