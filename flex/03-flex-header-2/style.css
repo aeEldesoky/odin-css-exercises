@@ -16,7 +16,7 @@ ul,
   /* Make containers flexbox */
   display: flex;
   /* Create gap between items */
-  gap: 1em;
+  gap: 16px;
 }
 
 .header {
@@ -26,7 +26,7 @@ ul,
   /* Center items vertically inside header */
   align-items: center;
   /* Set padding for items inside the header */
-  padding: 0.5em;
+  padding: 8px;
 }
 
 /* Make header flexible */
