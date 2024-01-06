@@ -8,6 +8,11 @@ body {
   font-family: Besley, serif;
 }
 
+/* Make containers flexbox */
+.header, ul, .left, .right {
+  display: flex;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
