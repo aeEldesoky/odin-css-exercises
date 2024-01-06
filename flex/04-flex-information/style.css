@@ -11,6 +11,13 @@ body {
   align-items: center;
 }
 
+.item {
+  /* Set gap between items */
+  gap: 4em;
+  /* Set padding inside item */
+  padding: 1em;
+}
+
 .text {
   /* Center text */
   text-align: center;
