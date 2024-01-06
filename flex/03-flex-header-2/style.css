@@ -9,7 +9,10 @@ body {
 }
 
 
-.header, ul, .left, .right {
+.header,
+ul,
+.left,
+.right {
   /* Make containers flexbox */
   display: flex;
   /* Create gap between items */
@@ -19,7 +22,9 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+  /* Center items vertically inside header */
+  align-items: center;
 }
 
 /* Make header flexible */
@@ -29,7 +34,7 @@ body {
 
 .profile-image {
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
