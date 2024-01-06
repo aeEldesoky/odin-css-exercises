@@ -8,9 +8,12 @@ body {
   font-family: Besley, serif;
 }
 
-/* Make containers flexbox */
+
 .header, ul, .left, .right {
+  /* Make containers flexbox */
   display: flex;
+  /* Create gap between items */
+  gap: 1em;
 }
 
 .header {
