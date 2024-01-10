@@ -11,16 +11,20 @@ body {
   align-items: center;
 }
 
+.info {
+   /* Set gap between items */
+   gap: 52px;
+}
 .item {
-  /* Set gap between items */
-  gap: 4em;
   /* Set padding inside item */
-  padding: 1em;
+  padding-top: 32px;
+  width: 200px;
 }
 
 .text {
   /* Center text */
   text-align: center;
+  padding-top: 5px;
 }
 img {
   width: 100px;
