@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* increase font size */
+  font-size: 16px;
 }
 
 .modal {
@@ -24,6 +26,14 @@ body {
   display: flex;
   /* Manage item padding inside modal */
   padding: 18px;
+}
+
+/* Make the deader a flexbox */
+.header {
+  display: flex;
+  /* Manage header font */
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .icon {
@@ -41,11 +51,10 @@ body {
   flex-shrink: 0;
 }
 
-/* Make the deader a flexbox */
-.header {
-  display: flex;
+/* Set text margins */
+.text {
+  margin: 18px;
 }
-
 .close-button {
   background: #eee;
   border-radius: 50%;
