@@ -18,12 +18,14 @@ body {
 .item {
   /* Set padding inside item */
   padding-top: 32px;
+  /* Set fixed width of each item */
   width: 200px;
 }
 
 .text {
   /* Center text */
   text-align: center;
+  /* Adjust text top padding */
   padding-top: 5px;
 }
 img {
