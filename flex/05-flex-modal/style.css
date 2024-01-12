@@ -22,6 +22,8 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   /* Make the modal flexbox */
   display: flex;
+  /* Manage item padding inside modal */
+  padding: 18px;
 }
 
 .icon {
