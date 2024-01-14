@@ -25,15 +25,26 @@ body {
   /* Make the modal flexbox */
   display: flex;
   /* Manage item padding inside modal */
-  padding: 18px;
+  padding: 16px;
 }
 
+/* Adjust left margin for container */
+.container {
+  margin-left: 16px;
+}
 /* Make the deader a flexbox */
 .header {
   display: flex;
   /* Manage header font */
   font-weight: bold;
   font-size: 18px;
+  /* To remove space after header */
+  margin: 0;
+  padding: 0;
+  /* Justify content of header */
+  justify-content: space-between;
+  /* Center items vertically */
+  align-items: center;
 }
 
 .icon {
@@ -53,7 +64,7 @@ body {
 
 /* Set text margins */
 .text {
-  margin: 18px;
+  margin: 8px auto 16px auto;
 }
 .close-button {
   background: #eee;
