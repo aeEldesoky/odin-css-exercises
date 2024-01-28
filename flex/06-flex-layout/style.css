@@ -7,25 +7,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-img {
-  width: 600px;
-}
-
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
-}
-
-input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
-  margin-bottom: 16px;
-}
-
 /* Format links */
 a {
   text-decoration: none;
@@ -51,4 +32,31 @@ ul {
 /* Push right links to the right */
 .right-links {
   margin-left: auto;
+}
+
+/* Center the content */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
 }
