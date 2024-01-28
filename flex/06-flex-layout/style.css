@@ -26,7 +26,29 @@ input {
   margin-bottom: 16px;
 }
 
+/* Format links */
 a {
   text-decoration: none;
   color: rgb(105, 96, 88);
+}
+
+/* Remove bullet points */
+ul {
+  list-style-type: none;
+}
+
+/* Make header and its elements flexbox */
+.header, .left-links, .right-links {
+  display: flex;
+}
+
+/* Adjust link spaces */
+.left-links, .right-links {
+  gap: 16px;
+  padding: 0 16px;
+}
+
+/* Push right links to the right */
+.right-links {
+  margin-left: auto;
 }
