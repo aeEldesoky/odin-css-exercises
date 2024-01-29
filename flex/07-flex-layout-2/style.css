@@ -34,6 +34,11 @@ body {
   border-radius: 4px;
 }
 
+/* Create divs and make them flexbox */
+.content, .main {
+  display: flex;
+}
+
 /* Remove bullet points */
 ul {
   list-style-type: none;
