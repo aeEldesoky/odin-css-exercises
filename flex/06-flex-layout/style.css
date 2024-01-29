@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* format the body to push the footer down */
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
 
 /* Format links */
@@ -40,6 +44,15 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* adjust content to the center */
+  margin-top: auto;
+}
+
+/* Format the footer and push the footer down */
+.footer {
+  display: flex;
+  margin-top: auto;
+  background-color: #eee;
 }
 
 img {
