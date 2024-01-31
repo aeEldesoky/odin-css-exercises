@@ -38,15 +38,29 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+  width: 300px;
+  padding: 20px;
 }
 
 /* Create divs and make them flexbox */
-.content, .main {
+.content,
+.main {
   display: flex;
+  
 }
 
+.main {
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px;
+}
+
+/* To make sidebar not shrinkable */
+.sidebar {
+  flex-shrink: 0;
+}
 /* Remove bullet points */
 ul {
   list-style-type: none;
