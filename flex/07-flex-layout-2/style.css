@@ -46,9 +46,10 @@ body {
 
 /* Create divs and make them flexbox */
 .content,
-.main {
+.main,
+.sidebar {
   display: flex;
-  
+
 }
 
 .main {
@@ -59,11 +60,19 @@ body {
 
 /* To make sidebar not shrinkable */
 .sidebar {
-  flex-shrink: 0;
+  display: flex;
+  flex: 0 0 auto;
 }
-/* Remove bullet points */
+
 ul {
+  /* Remove bullet points */
   list-style-type: none;
+  /* Format list */
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  margin: 0;
 }
 
 a {
@@ -71,5 +80,5 @@ a {
   text-decoration: none;
   /* format link font */
   color: white;
-  font-size: 26px;
+  font-size: 24px;
 }
