@@ -1,55 +1,67 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0;
-  min-height: 100vh;
-  /* To push the footer down */
+/* make items flexbox */
+.header,
+.content,
+.main,
+.sidebar,
+.footer {
+  display: flex;
+}
+
+body,
+ul {
   display: flex;
   flex-direction: column;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+}
+
+.header,
+a {
+  color: white;
+}
+
+.header,
+.footer {
+  height: 72px;
+  align-items: center;
 }
 
 .header {
-  height: 72px;
-  background: darkmagenta;
-  color: white;
   /* Format page header */
-  display: flex;
-  align-items: center;
+  background: darkmagenta;
   font-size: 32px;
   font-weight: bold;
   padding-left: 16px;
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-  /* place footer at the end of the page */
-  margin-top: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.sidebar,
+.card {
+  width: 300px;
 }
 
 .sidebar {
-  width: 300px;
+  /* Flex rule. To make sidebar not shrinkable */
+  flex: 0 0 auto;
   background: royalblue;
   box-sizing: border-box;
 }
 
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
-  border-radius: 4px;
-  width: 300px;
+ul {
+  /* Remove bullet points */
+  list-style-type: none;
   padding: 16px;
+  gap: 16px;
 }
 
-/* Create divs and make them flexbox */
-.content,
-.main,
-.sidebar {
-  display: flex;
-
+a {
+  /* remove link underline */
+  text-decoration: none;
+  /* format link font */
+  font-size: 24px;
 }
 
 .main {
@@ -59,27 +71,16 @@ body {
   padding: 24px;
 }
 
-/* To make sidebar not shrinkable */
-.sidebar {
-  display: flex;
-  flex: 0 0 auto;
-}
-
-ul {
-  /* Remove bullet points */
-  list-style-type: none;
-  /* Format list */
-  display: flex;
-  flex-direction: column;
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+  border-radius: 4px;
   padding: 16px;
-  gap: 16px;
-  margin: 0;
 }
 
-a {
-  /* remove link underline */
-  text-decoration: none;
-  /* format link font */
-  color: white;
-  font-size: 24px;
+.footer {
+  background: #eee;
+  color: darkmagenta;
+  margin-top: auto;
+  justify-content: center;
 }
